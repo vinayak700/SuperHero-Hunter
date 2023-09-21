@@ -8,7 +8,7 @@ const searchList = document.getElementById('search-list');
 const notFound = document.getElementById('notFound');
 const searchBtn = document.getElementById('search-btn');
 
-const base_url = 'http://gateway.marvel.com/v1/public';
+const base_url = 'https://gateway.marvel.com/v1/public';
 const hash = 'd35377547e551cd64a60657d2517bb7f';
 
 async function fetchCharacters() {

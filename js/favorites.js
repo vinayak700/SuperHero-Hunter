@@ -9,7 +9,7 @@ if (localStorage.length != 0) {
         const key = localStorage.key(i);
         // Getting corresponding value from the key
         const value = localStorage.getItem(key);
-        const url = `http://gateway.marvel.com/v1/public/characters/${value}?&ts=1&apikey=9ab871748d83ae2eb5527ffd69e034de&hash=${hash}`;
+        const url = `https://gateway.marvel.com/v1/public/characters/${value}?&ts=1&apikey=9ab871748d83ae2eb5527ffd69e034de&hash=${hash}`;
         fetchFavChar(url);
     }
 } else {

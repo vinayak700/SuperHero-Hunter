@@ -4,7 +4,7 @@ const id = new URLSearchParams(window.location.search).get('character');
 // Generating an url
 const public_key = '9ab871748d83ae2eb5527ffd69e034de';
 const hash = 'd35377547e551cd64a60657d2517bb7f';
-const url = `http://gateway.marvel.com/v1/public/characters/${id}?&ts=1&apikey=${public_key}&hash=${hash}`;
+const url = `https://gateway.marvel.com/v1/public/characters/${id}?&ts=1&apikey=${public_key}&hash=${hash}`;
 
 // Making an api call to get an individual character
 async function getChar(url) {
