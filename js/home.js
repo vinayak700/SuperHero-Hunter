@@ -24,7 +24,7 @@ function renderCharList(data) {
     for (let i = 0; i < data.length; i++) {
         const div = document.createElement('div');
         div.className = "card";
-        div.innerHTML = `<a href="/superhero.html?character=${data[i].id}" class="character-link">
+        div.innerHTML = `<a href="/SuperHero-Hunter/superhero.html?character=${data[i].id}" class="character-link">
         <img src="${data[i].thumbnail.path}.jpg" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title">${data[i].name}</h5>
@@ -48,7 +48,7 @@ function renderSearchList(data) {
     for (let i = 0; i < size; i++) {
         const li = document.createElement('li');
         li.className = `character-item`;
-        li.innerHTML = `<a href="/superhero.html?character=${data[i].id}" class="character-link">
+        li.innerHTML = `<a href="/SuperHero-Hunter/superhero.html?character=${data[i].id}" class="character-link">
         <div class="char-details">
             <img src="${data[i].thumbnail.path}.jpg" alt="" class="char-thumbnail" height="30" width="30">
             <p class="charName" id="charName1">

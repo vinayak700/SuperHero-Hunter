@@ -30,7 +30,7 @@ function renderFavChar(data) {
     div.className = "card";
     div.style.width = "13rem";
     div.style.height = "21rem"
-    div.innerHTML = `<a href="/superhero.html?character=${data[0].id}" class="character-link">
+    div.innerHTML = `<a href="/SuperHero-Hunter/superhero.html?character=${data[0].id}" class="character-link">
         <img src="${data[0].thumbnail.path}.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${data[0].name}</h5>
