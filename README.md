@@ -1,5 +1,4 @@
-#SuperHero Hunter App
-SuperHero Hunter
+SuperHero Hunter App
 - SuperHero Hunter is a web application that allows users to explore and discover various superheroes. It provides information about characters from the Marvel universe, including their comics, events, series, and stories.
 
 Table of Contents
