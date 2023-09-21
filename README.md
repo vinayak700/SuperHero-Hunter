@@ -1,5 +1,5 @@
-SuperHero Hunter
-SuperHero Hunter is a web application that allows users to explore and discover various superheroes. It provides information about characters from the Marvel universe, including their comics, events, series, and stories.
+SuperHero Hunter App
+- SuperHero Hunter is a web application that allows users to explore and discover various superheroes. It provides information about characters from the Marvel universe, including their comics, events, series, and stories.
 
 Table of Contents
 - Introduction
@@ -38,7 +38,8 @@ How to Use
      - Click on a character to view their specific information, including comics, events, series, and stories.
     
 Contributing
-We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
+- We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
+  
 - Fork the repository.
 - Create a new branch for your feature: git checkout -b feature-name.
 - Make your changes and commit them: git commit -m 'Description of your changes'.
@@ -46,4 +47,4 @@ We welcome contributions from the community. If you'd like to contribute to this
 - Submit a pull request.
 
 License
-This project is licensed under the MIT License. Feel free to use and modify this project for your own purposes.
+- This project is licensed under the MIT License. Feel free to use and modify this project for your own purposes.
