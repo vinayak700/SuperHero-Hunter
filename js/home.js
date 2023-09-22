@@ -1,6 +1,7 @@
 // const public_key = '8b36671abf2b6e9f588499dd74ca3d31';
 // const private_key = '7154f670db6a3dd09b349a6b3eae4a256299d02c'
 
+// Getting elements from html DOM
 let charBucket = document.getElementById('card-container');
 let searchBucket = document.getElementById('ul');
 let searchInput = document.getElementById('search-input');
@@ -11,6 +12,7 @@ const searchBtn = document.getElementById('search-btn');
 const base_url = 'https://gateway.marvel.com/v1/public';
 const hash = 'd35377547e551cd64a60657d2517bb7f';
 
+// fetching all characters
 async function fetchCharacters() {
     // const ts = new Date().getTime();
     const url = `${base_url}/characters?ts=1&apikey=9ab871748d83ae2eb5527ffd69e034de&hash=${hash}&limit=100`;
@@ -20,6 +22,7 @@ async function fetchCharacters() {
 }
 fetchCharacters();
 
+// Rendering all characters
 function renderCharList(data) {
     for (let i = 0; i < data.length; i++) {
         const div = document.createElement('div');
@@ -32,7 +35,7 @@ function renderCharList(data) {
         <p>Series: <span class="series">${data[i].series.available}</span></p>
         </div>
         </a>`;
-
+        
         charBucket.append(div);
     }
 }
